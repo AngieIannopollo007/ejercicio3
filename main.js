@@ -4,13 +4,8 @@ const contenedor = document.getElementById("contenedor");
 const contador = document.getElementById("contador"); 
 
 function actualizarContador() {
-    let faltan = 0;
-    for (let i = 0; i < estado.length; i++) {
-        if (estado[i] === false) {
-            faltan++;
-        }
-    }
-    contador.textContent = `Faltan ${faltan} figuritas`;
+    const figusFaltantes = estado.filter(e => !e).length;
+    contador.textContent = `Faltan ${figusFaltantes} figuritas`;
 }
 
  function guardar() { 
