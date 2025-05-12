@@ -1,0 +1,40 @@
+h1 {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    color: rgb(113, 0, 113);
+    font-size: 50px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgb(113, 0, 113);
+    font-size: 50px;
+  }
+  
+  #contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: auto;
+  }
+  
+  .boton {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: rgb(183, 11, 221);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .completa {
+    background-color: rgb(202, 226, 21);
+    color: white;
+  }
+  
